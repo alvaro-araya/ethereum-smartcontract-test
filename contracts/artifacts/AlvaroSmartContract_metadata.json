@@ -1,0 +1,72 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "getInfo",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "data",
+						"type": "string"
+					}
+				],
+				"name": "setInfo",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/AlvaroSmartContract.sol": "AlvaroSmartContract"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/AlvaroSmartContract.sol": {
+			"keccak256": "0xc506e72066860d3effd359652056d438bc2595856ced22aff3a0ca0c2649f7e9",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://651b7e72875b71545ce9d861c88aed5165aaab8c26e83885248fe72ee6e122eb",
+				"dweb:/ipfs/QmStKnGoVf6UQ4mziEN5TS2B7Vzr964JKZMRySYtEsfveH"
+			]
+		}
+	},
+	"version": 1
+}
