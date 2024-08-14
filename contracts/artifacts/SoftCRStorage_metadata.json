@@ -1,0 +1,59 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "getOwner",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/SoftCRStorage.sol": "SoftCRStorage"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/SoftCRStorage.sol": {
+			"keccak256": "0x2d1b9e4a4de2c72e24c88ecc936180cf3b08d8844449061ede2c95cf1261c4e8",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://4c5c67144a81f377db004c5617ab1e12de7cdd003b9447d7e996a6253ce2155b",
+				"dweb:/ipfs/QmXghq9N4FDw73M76JL4HWvGxF3wfXAtz7wvH3JRaKLoYL"
+			]
+		}
+	},
+	"version": 1
+}
