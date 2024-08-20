@@ -1,0 +1,92 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "car",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "brand",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "year",
+						"type": "uint256"
+					},
+					{
+						"internalType": "bool",
+						"name": "crashed",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_brand",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_year",
+						"type": "uint256"
+					},
+					{
+						"internalType": "bool",
+						"name": "_crashed",
+						"type": "bool"
+					}
+				],
+				"name": "createCar",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/SoftCRStruct.sol": "SoftCRStruct"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/SoftCRStruct.sol": {
+			"keccak256": "0x8ad3f960d3f9a6b348cae78806dfc5e109582d19ec3c1d766e841be4fc4337a0",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://9cd1030830bfa3308ae0552a56cc85579ea0df32aae106ad4cd902fb552c4608",
+				"dweb:/ipfs/QmXt8LMT2qjRJ1zZLw2pyCybPyd7qVjJ5L178roii9LYfx"
+			]
+		}
+	},
+	"version": 1
+}

@@ -20,7 +20,7 @@
 						"type": "address"
 					},
 					{
-						"indexed": false,
+						"indexed": true,
 						"internalType": "string",
 						"name": "key",
 						"type": "string"
@@ -36,26 +36,26 @@
 				"type": "event"
 			},
 			{
-				"inputs": [],
-				"name": "name",
-				"outputs": [
+				"inputs": [
 					{
 						"internalType": "string",
-						"name": "",
+						"name": "_value",
 						"type": "string"
 					}
 				],
-				"stateMutability": "view",
+				"name": "addInfo",
+				"outputs": [],
+				"stateMutability": "nonpayable",
 				"type": "function"
 			},
 			{
 				"inputs": [],
-				"name": "owner",
+				"name": "counter",
 				"outputs": [
 					{
-						"internalType": "address",
+						"internalType": "uint256",
 						"name": "",
-						"type": "address"
+						"type": "uint256"
 					}
 				],
 				"stateMutability": "view",
@@ -64,12 +64,36 @@
 			{
 				"inputs": [
 					{
+						"internalType": "uint256",
+						"name": "_index",
+						"type": "uint256"
+					}
+				],
+				"name": "getOneInfo",
+				"outputs": [
+					{
 						"internalType": "string",
-						"name": "_name",
+						"name": "",
 						"type": "string"
 					}
 				],
-				"name": "setName",
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_index",
+						"type": "uint256"
+					},
+					{
+						"internalType": "string",
+						"name": "_value",
+						"type": "string"
+					}
+				],
+				"name": "updateStoredInfo",
 				"outputs": [],
 				"stateMutability": "nonpayable",
 				"type": "function"
@@ -88,7 +112,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/SoftCRCounter.sol": "SoftCRCounter"
+			"contracts/SoftCRModulo2Clase2Ex6.sol": "SoftCRModulo2Clase2Ex6"
 		},
 		"evmVersion": "cancun",
 		"libraries": {},
@@ -102,12 +126,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/SoftCRCounter.sol": {
-			"keccak256": "0xfa61e21333b527d5440806da0829414fd1cfcbae25bf12996456a58b993fce6b",
+		"contracts/SoftCRModulo2Clase2Ex6.sol": {
+			"keccak256": "0x0835cdf007e509d77e0a2da1ca766adb0dc3b164b41011cbe56acd11fb6b1067",
 			"license": "GPL-3.0",
 			"urls": [
-				"bzz-raw://f54be96faae24126c044c1785ff3a3406674c086ce58b68f2e0ef1cd7c76f01b",
-				"dweb:/ipfs/QmX5VTAyg98764z1VAzySFNc4uDvBcXWc3vjWmJGjW9EBh"
+				"bzz-raw://912310401cb6df377b43c63b4e96bd01b4232d019df7b43488e1fb689a5a0159",
+				"dweb:/ipfs/QmTuryxQ3PKrMewb4uVnxGaJCdvYsHMrnpTKipYomkb8Vk"
 			]
 		}
 	},

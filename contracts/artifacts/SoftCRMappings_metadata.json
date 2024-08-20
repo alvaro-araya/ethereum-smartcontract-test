@@ -6,34 +6,30 @@
 	"output": {
 		"abi": [
 			{
-				"inputs": [],
-				"stateMutability": "nonpayable",
-				"type": "constructor"
-			},
-			{
-				"anonymous": false,
 				"inputs": [
 					{
-						"indexed": true,
 						"internalType": "address",
-						"name": "editor",
+						"name": "_address",
 						"type": "address"
-					},
-					{
-						"indexed": false,
-						"internalType": "string",
-						"name": "key",
-						"type": "string"
-					},
-					{
-						"indexed": false,
-						"internalType": "string",
-						"name": "value",
-						"type": "string"
 					}
 				],
-				"name": "DataModified",
-				"type": "event"
+				"name": "addToWhitelist",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_address",
+						"type": "address"
+					}
+				],
+				"name": "disableFromWhitelist",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
 			},
 			{
 				"inputs": [],
@@ -49,16 +45,16 @@
 				"type": "function"
 			},
 			{
-				"inputs": [],
-				"name": "owner",
-				"outputs": [
+				"inputs": [
 					{
 						"internalType": "address",
-						"name": "",
+						"name": "_address",
 						"type": "address"
 					}
 				],
-				"stateMutability": "view",
+				"name": "removeFromWhitelist",
+				"outputs": [],
+				"stateMutability": "nonpayable",
 				"type": "function"
 			},
 			{
@@ -72,6 +68,25 @@
 				"name": "setName",
 				"outputs": [],
 				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"name": "whitelist",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "view",
 				"type": "function"
 			}
 		],
@@ -88,7 +103,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/SoftCRCounter.sol": "SoftCRCounter"
+			"contracts/SoftCRMappings.sol": "SoftCRMappings"
 		},
 		"evmVersion": "cancun",
 		"libraries": {},
@@ -102,12 +117,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/SoftCRCounter.sol": {
-			"keccak256": "0xfa61e21333b527d5440806da0829414fd1cfcbae25bf12996456a58b993fce6b",
+		"contracts/SoftCRMappings.sol": {
+			"keccak256": "0x462c998dbdf7f915eb9c079ef547bd6efe5c8ab458b0ca36d4ea555cff8213f5",
 			"license": "GPL-3.0",
 			"urls": [
-				"bzz-raw://f54be96faae24126c044c1785ff3a3406674c086ce58b68f2e0ef1cd7c76f01b",
-				"dweb:/ipfs/QmX5VTAyg98764z1VAzySFNc4uDvBcXWc3vjWmJGjW9EBh"
+				"bzz-raw://bde99ecd4d3fed3dcdedf9ed33475e580ee2310d4a580e21cc52533928bf5c10",
+				"dweb:/ipfs/QmPon7gFtBkf8JB6rjkaz4GgU1rUNwkAbce6CC1asZTM5p"
 			]
 		}
 	},
